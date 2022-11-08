@@ -15,7 +15,7 @@ Join the Higurashi Daybreak Discord Community:
 Unzip the DaybreakerDX.exe to your Higurashi Daybreak Game Directory (Where DaybreakDX.exe can be found) and run it, that's it!
 
 ## Source Code Installation
-`git clone --recursive https://github.com/BttrDrgn/dxbreaker.git` and run `generate.bat`. 
+`git clone --recursive https://github.com/BttrDrgn/DaybreakerDX.git` and run `generate.bat`. 
 The solution will be found in the `build` folder.
 
 ## Special Thanks
