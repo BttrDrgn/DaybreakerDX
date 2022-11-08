@@ -12,7 +12,7 @@ Join the Higurashi Daybreak Discord Community:
 - Automatically sets the CPU Affinity to single core, no need to use task manager to set CPU affinity
 
 ## Installation
-Unzip the DaybreakerDX.exe to your Higurashi Daybreak Game Directory (Where DaybreakDX.exe can be found) and run it, that's it!
+Head over to https://github.com/BttrDrgn/DaybreakerDX/releases and download DaybreakerDX.exe, Move it to your Higurashi Daybreak Game Directory (Where DaybreakDX.exe can be found) and run it, that's it!
 
 ## Source Code Installation
 `git clone --recursive https://github.com/BttrDrgn/DaybreakerDX.git` and run `generate.bat`. 
