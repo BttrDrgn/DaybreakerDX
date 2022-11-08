@@ -84,13 +84,13 @@ void __cdecl init(int argc, char* argv[])
 		float hpX = 970;
 		float hpY = 1600;
 		//HP Bar
-		set(0x6A4CD8, (char*)&hpX);
-		set(0x6A4CD4, (char*)&hpY);
+		set(0x6A4CD8, hpX);
+		set(0x6A4CD4, hpY);
 		//Power Bar &  CharacterName 
 		float pwbX = 898;
 		float chnX = 998;
-		set(0x6A4CD0, (char*)&pwbX);
-		set(0x6A4CC8, (char*)&chnX);
+		set(0x6A4CD0, pwbX);
+		set(0x6A4CC8, chnX);
 
 		//Charge Bar
 		float chbX = 917;
@@ -98,35 +98,35 @@ void __cdecl init(int argc, char* argv[])
 		float chtX = 886;
 		float chtY = 1772;
 		float chb2Y = 925;
-		set(0x6A4CC0, (char*)&chbX);
-		set(0x6A4CAC, (char*)&chbY);
-		set(0x6A4C98, (char*)&chb2Y);
-		set(0x6A4CA8, (char*)&chtX);
-		set(0x6A4CA4, (char*)&chtY);
+		set(0x6A4CC0, chbX);
+		set(0x6A4CAC, chbY);
+		set(0x6A4C98, chb2Y);
+		set(0x6A4CA8, chtX);
+		set(0x6A4CA4, chtY);
 
 		//Main Bar
 		float mabY = 1720;
 		float mabX = 866;
 		float matX = 834;
 		float matY = 1830;
-		set(0x6A4CB0, (char*)&mabY);
-		set(0x6A4CB4, (char*)&mabX);
-		set(0x6A4CA0, (char*)&matX);
-		set(0x6A4C9C, (char*)&matY);
+		set(0x6A4CB0,mabY);
+		set(0x6A4CB4,mabX);
+		set(0x6A4CA0,matX);
+		set(0x6A4C9C,matY);
 
 		//AI Icon
 		float aiX = 920;
-		set(0x6A4CBC, (char*)&aiX);
+		set(0x6A4CBC, aiX);
 
 		//Red Balloon
 		float rbY = 1825;
 		float rbtlY = 1810;
 		float rbtpY = 1850;
 		float rbtp2Y = 1878;
-		set(0x6A4C8C, (char*)&rbY);
-		set(0x6A1C80, (char*)&rbtlY);
-		set(0x6A4C88, (char*)&rbtpY);
-		set(0x6A4C84, (char*)&rbtp2Y);
+		set(0x6A4C8C, rbY);
+		set(0x6A1C80, rbtlY);
+		set(0x6A4C88, rbtpY);
+		set(0x6A4C84, rbtp2Y);
 
 		//small fix for vs screen
 		static float vschar_right = 700;
