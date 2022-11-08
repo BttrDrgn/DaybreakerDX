@@ -55,7 +55,12 @@ workspace(project_name)
 	project(project_name)
 		targetname(project_name)
 		language "c++"
+
+		filter "configurations:Release"
+		kind "windowedapp"
+		filter "configurations:Debug"
 		kind "consoleapp"
+		filter {}
 		warnings "off"
 
 		pchheader "stdafx.hpp"
