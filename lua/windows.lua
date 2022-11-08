@@ -66,10 +66,16 @@ workspace(project_name)
 			"LOADED_BIN=\"".. loaded_bin .. "\"",
 		}
 
+		links {
+			"MinHook",
+		}
+
 		includedirs {
 			"../src/loader/",
 			"../src/game/",
 			"../src/memory/",
+
+			"../deps/MinHook/include/",
 		}
 
 		files {
@@ -85,4 +91,20 @@ workspace(project_name)
 			"/SAFESEH:NO",
 			"/LARGEADDRESSAWARE",
 			"/LAST:.main",
+		}
+
+group "Deps"
+
+	project "MinHook"
+		targetname "MinHook"
+
+		language "c++"
+		kind "staticlib"
+
+		files {
+			"../deps/minhook/src/**",
+		}
+
+		includedirs {
+			"../deps/minhook/include/",
 		}
