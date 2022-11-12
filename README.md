@@ -10,6 +10,7 @@ Join the Higurashi Daybreak Discord Community:
 - The Game will now run in 1920x1080 HD Resolution in Windowed Mode.
 - MultiSampling 8x is now enabled.
 - Automatically sets the CPU Affinity to single core, no need to use task manager to set CPU affinity
+- US Keyboard Input now supported for In-game chat.
 
 ## Installation
 Head over to https://github.com/BttrDrgn/DaybreakerDX/releases and download DaybreakerDX.exe, Move it to your Higurashi Daybreak Game Directory (Where DaybreakDX.exe can be found) and run it, that's it!
